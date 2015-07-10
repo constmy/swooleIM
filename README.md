@@ -11,8 +11,11 @@ swoole扩展:http://www4swoole.sinaapp.com/
 
 swoole开发组Q群:321637118
 
-
+使用方法
+========
 修改chat.js 11行的ip
 ws = new WebSocket( "ws://x.x.x.x:9501" );
 
-运行./server/WebSocket.php就可以了
+运行./server/WebSocket.php
+
+在浏览器中打开http://你的ip或域名/app/webIM/login.html
